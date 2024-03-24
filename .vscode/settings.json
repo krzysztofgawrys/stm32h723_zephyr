@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/usr/bin:/bin:/usr/local/bin:$HOME/elec/zephyr/zephyrproject/zephyr/scripts",
+        "ZEPHYR_BASE": "${env:HOME}/elec/zephyr/zephyrproject/zephyr",
+    }
+}

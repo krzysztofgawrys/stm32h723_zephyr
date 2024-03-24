@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "executable": "build/zephyr/zephyr.elf",
+            "cwd": "${workspaceFolder}",
+            "runToEntryPoint": "main",
+            "servertype": "external",
+            "gdbTarget": "/dev/ttyACM0",
+            "overrideLaunchCommands": [],
+            "preLaunchCommands": [
+                "monitor s",
+                "attach 1",
+                "load build/zephyr/zephyr.elf",
+                "compare-sections"
+            ],
+            "postRestartCommands": [
+                "break main",
+                "continue"
+            ],
+            "showDevDebugOutput": "raw"
+        }
+    ]
+}

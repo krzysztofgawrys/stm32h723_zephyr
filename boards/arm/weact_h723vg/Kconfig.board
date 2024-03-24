@@ -1,0 +1,7 @@
+# STM32H723VG WeAct board configuration
+
+# Copyright (c) 2024 Krzysztof Gawryś
+
+config BOARD_WEACT_H723VG
+	bool "H723VG Development Board"
+	depends on SOC_STM32H723XX
