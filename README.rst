@@ -4,6 +4,10 @@
 
    Blink an LED forever using the GPIO API.
 
+Zephyr on STM32H723VG WeAct board
+********
+
+
 Overview
 ********
 
