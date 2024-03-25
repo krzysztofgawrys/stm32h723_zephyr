@@ -42,7 +42,7 @@ int main(void)
         return 0;
     }
 
-    LOG_INF("PicoDRO application.");
+    LOG_INF("Zephyr running on H723VG with early USB console");
 
     while (1)
     {
