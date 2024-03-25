@@ -15,7 +15,7 @@
 		"bsp": {
 			"cpu": "",  // must be used if multi core system (put _m4 or _m7 here for example)
 			"soc": "stm32h723vg",
-			"board": "weact_h723vg",
+			"board": "custom_h723vg",
 			"board_root": "${workspaceFolder:zephyrproject}/zephyr",
 		},
 

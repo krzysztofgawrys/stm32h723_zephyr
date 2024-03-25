@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20.0)
 
 
 set(BOARD_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
-set(BOARD weact_h723vg)
+set(BOARD h723vg)
 
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/prj.conf")
   list(APPEND CONF_FILE "prj.conf")
