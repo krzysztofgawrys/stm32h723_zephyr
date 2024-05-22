@@ -3,5 +3,5 @@
 # Copyright (c) 2024 Krzysztof Gawryś
 
 config BOARD_H723VG
-	bool "H723VG Development Board"
-	depends on SOC_STM32H723XX
+        bool "H723VG Development Board"
+        select SOC_STM32H723XX

@@ -1,0 +1,5 @@
+board:
+  name: h723vg
+  vendor: kg
+  socs:
+    - name: stm32h723xx
